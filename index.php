@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Static Title</title>
+    <title><?php bloginfo('title'); ?></title>
 </head>
 
 <body>
