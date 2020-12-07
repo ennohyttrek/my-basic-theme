@@ -10,7 +10,12 @@ function register_my_menus() {
     array(
         'header-menu' => __( 'Kopf Menu' ),
         'mobile-menu' => __( 'Handy Menu' ),
-        'footer-menu' => __( 'Fuss Menu' )
+        'footer-menu' => __( 'Fuss Menu' ),
+        'uebung-menu' => __( 'Menu Uebung' ),
+        'phase1-menu' => __( 'Menu Phase 1' ),
+        'basics-menu' => __( 'Menu Basics' ),
+        'phase2-menu' => __( 'Menu Phase 2' ),
+        'phase3-menu' => __( 'Menu Phase 3' )
      )
    );
  }

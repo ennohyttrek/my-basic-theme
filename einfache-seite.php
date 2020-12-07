@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Einfache Seite
+Template Name: Eine einfache Seite
 */
 ?>
 
@@ -18,6 +18,7 @@ Template Name: Einfache Seite
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </nav>
     <h1><?php bloginfo('title'); ?></h1>
+    <h2>Dies ist das 'Einfache Seite' Template</h2>
 
     <?php while( have_posts() ) : the_post(); ?>
     <article>
