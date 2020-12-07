@@ -1,5 +1,7 @@
 <?php
-/*Index Seite*/
+/*
+Template Name: Einfache Seite
+*/
 ?>
 
 <!DOCTYPE html>
