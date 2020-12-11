@@ -4,30 +4,7 @@ Template Name: Kursprogramm
 */
 ?>
 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title><?php bloginfo('title'); ?></title>
-    <?php wp_head() ?>
-    
-    <style>
-    
-    
-    
-    
-    </style>
-    
-    
-</head>
-
-<body>
-    <header>
-        <h1><?php bloginfo('title'); ?></h1>
-        </header>
-    <nav>
-    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-    </nav>
+<?php get_header(); ?>
 
     <main>
         <div id="my-stage" class="my-stage my-outline-01">
@@ -123,6 +100,4 @@ Template Name: Kursprogramm
     </main>
 
 
-</body>
-
-</html>
+<?php get_footer(); ?>
