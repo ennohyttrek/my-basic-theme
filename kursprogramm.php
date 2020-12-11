@@ -5,24 +5,29 @@ Template Name: Kursprogramm
 ?>
 
 <!DOCTYPE html>
-<html lang="de">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projekt Infodesign</title>
-    <link rel="stylesheet" href="style.css">
+    <title><?php bloginfo('title'); ?></title>
     <?php wp_head() ?>
+    
+    <style>
+    
+    
+    
+    
+    </style>
+    
+    
 </head>
 
 <body>
     <header>
-            <nav>
+        <h1><?php bloginfo('title'); ?></h1>
+        </header>
+    <nav>
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </nav>
-            <h1><?php bloginfo('title'); ?></h1>
-        <p>Übungsprojekt "Infodesign, Print/Web", Silicon Studio Berlin, MGest 2020/2021, Dozent: Enno Hyttrek</p>
-    </header>
 
     <main>
         <div id="my-stage" class="my-stage my-outline-01">
@@ -117,8 +122,7 @@ Template Name: Kursprogramm
 
     </main>
 
-    <footer>
-<p>&copy; 2020 Enno Hyttrek</p>
-    </footer>
 
-</body></html>
+</body>
+
+</html>
