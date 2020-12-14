@@ -24,7 +24,7 @@ RESET
 /*---------------------
 LAYOUT
 ---------------------*/
-
+nav.main-nav ul,
 h1,
 h2,
 h3,
@@ -46,44 +46,79 @@ TYPOGRAFIE
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.3vw
 }
+
+/*---------------------
+LAYOUT
+---------------------*/
 
 footer {
     font-size: 0.7em;
 }
 
-h1 {
-    font-family: 'Langar', cursive;
+
+.infografik {
+        font-size: 1.3vw
 }
+
+/*---------------------
+NAVIGATION
+---------------------*/
+nav.main-nav {
+    
+}
+
+nav.main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+nav.main-nav ul li {
+    margin-right: 1em;
+}
+
+
+nav.main-nav ul li a {
+    text-decoration: none;
+    color: hsl(200, 15%, 30%);
+}
+
+
+nav.main-nav ul li a:hover {
+        color: hsl(200, 95%, 40%);
+}
+
+
 
 /*---------------------
 FARBE/STIL
 ---------------------*/
 
 h1 {
-    color: hsl(200, 65%, 70%);
+    color: hsl(200, 15%, 70%);
 }
 
 header {
-    background-color: hsl(200, 65%, 30%);
+    background-color: hsl(200, 15%, 30%);
 }
 
 body.home header {
-      background-color: hsl(200, 65%, 70%); 
+      background-color: hsl(200, 15%, 70%); 
 }
 
 body.home h1 {
-    color: hsl(200, 65%, 30%);
+    color: hsl(200, 15%, 30%);
 }
 
 
 /*---------------------
-DIAGRAMM
+INFOGRAFIK (war vorher: "DIAGRAMM")
 ---------------------*/
 
 /*-------------
-Diagramm Layout
+Infografik Layout
 -------------*/
 
 .my-stage {
@@ -131,7 +166,7 @@ Diagramm Layout
 }
 
 /*-------------
-Diagramm Farbe/Stil
+Infografik Farbe/Stil
 -------------*/
 
 .my-outline-01 {

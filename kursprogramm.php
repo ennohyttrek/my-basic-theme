@@ -7,7 +7,7 @@ Template Name: Kursprogramm
 <?php get_header(); ?>
 
     <main>
-        <div id="my-stage" class="my-stage my-outline-01">
+        <div id="my-stage" class="infografik my-stage my-outline-01">
             <div class="my-layer layer-01">
 
                 <div class="shape my-generic-shape my-circle my-outline-01 my-colour-01" style="width:12vw;height:12vw;margin-top: 15vw;margin-left:6vw;z-index: 10">
